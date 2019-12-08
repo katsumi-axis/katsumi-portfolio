@@ -1,36 +1,3 @@
-
-.App{
-  width: 690px;
-  margin: 0 auto;
-}
-
-.Menu{
-  margin: 20px 0;
-}
-
-.Profile{
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.Profile .Data{
-  width: 66.5%;
-}
-
-
-.Profile img{
-  width: 168px;
-  margin: 32px 0;
-}
-
-
-@media screen and (max-width: 600px) {
-  .App{
-    width: calc(100% - 32px);
-    margin: 0 16px;
-  }
-
-  .Profile .Data{
-    width: 100%;
-  }
+h2{
+  border-bottom: 1px solid #052849;
 }
