@@ -13,7 +13,7 @@ function Works() {
         <li>RelationTechnology</li>
         <li>GayaChat</li>
         <li>TouchSpot</li>
-        <li>MICOLY()</li>
+        <li>MICOLY</li>
       </ul>
     </WorksWrap>
   )
