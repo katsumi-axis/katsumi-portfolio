@@ -17,8 +17,7 @@ function Profile() {
           <div className="Belongs">
             <h4>所属</h4>
             <ul>
-              <li>Gupero inc.</li>
-              <li>Yasuaki Kakehi Laboratory</li>
+              <li>Timee, inc.</li>
             </ul>
           </div>
 
@@ -28,6 +27,7 @@ function Profile() {
               <li>1998年 3月 神奈川県生まれ</li>
               <li>2015年 8月 株式会社Gupero設立</li>
               <li>2016年 4月 慶應義塾大学環境情報学部入学</li>
+              <li>2020年 3月 慶應義塾大学環境情報学部卒業</li>
             </ul>
           </div>
 
@@ -35,7 +35,7 @@ function Profile() {
             <h4>分野</h4>
             <ul>
               <li>Human computer interaction</li>
-              <li>Machine learning</li>
+              <li>UX Research</li>
               <li>Growth hacking</li>
             </ul>
           </div>

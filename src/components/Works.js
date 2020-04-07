@@ -9,11 +9,12 @@ function Works() {
       <h4>Company</h4>
       <ul>
         <li>OneNova</li>
-        <li>Timee</li>
         <li>RelationTechnology</li>
         <li>GayaChat</li>
         <li>TouchSpot</li>
         <li>MICOLY</li>
+        <li>GameHubs</li>
+        <li>Gupero</li>
       </ul>
     </WorksWrap>
   )
