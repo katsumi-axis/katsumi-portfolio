@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Menu />
       <Wrap>
-        <Name>古田 克海 <br/> Furuta Katsumi</Name>
+        <Name>Furuta Katsumi <br/> Portfolio</Name>
 
         <Profile />
         <Awards />
