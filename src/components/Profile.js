@@ -36,7 +36,7 @@ function Profile() {
             <ul>
               <li>Human computer interaction</li>
               <li>UX Research</li>
-              <li>Growth hacking</li>
+              <li>Growth hack</li>
             </ul>
           </div>
 
