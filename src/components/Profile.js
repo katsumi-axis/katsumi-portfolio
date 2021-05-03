@@ -35,8 +35,8 @@ function Profile() {
             <h4>分野</h4>
             <ul>
               <li>Human computer interaction</li>
-              <li>UX Research</li>
-              <li>Growth hack</li>
+              <li>Growth Marketing</li>
+              <li>DS</li>
             </ul>
           </div>
 
