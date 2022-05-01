@@ -9,8 +9,6 @@ function Works() {
       <h4>Company</h4>
       <ul>
         <li>OneNova</li>
-        <li>DiverFront</li>
-        <li>Funbase</li>
         <li>TouchSpot</li>
         <li>MICOLY</li>
         <li>BasicIncomeCinemas</li>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import me from '../me.jpg';
+import me from '../me.png';
 
 function Profile() {
   return (
@@ -36,7 +36,7 @@ function Profile() {
             <ul>
               <li>Human computer interaction</li>
               <li>Growth Marketing</li>
-              <li>DS</li>
+              <li>Analyst</li>
             </ul>
           </div>
 
@@ -76,6 +76,7 @@ const Image = styled.img`
   width: 168px;
   margin: 32px 0;
   text-algin: center;
+  border-redius: 50%;
   @media screen and (max-width: 600px) {
     margin: 0;
   }
