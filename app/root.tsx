@@ -19,21 +19,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
           async
           src={"https://www.googletagmanager.com/gtag/js?id=G-Q4ZX3XX7TL"}
         />
-        <script
-          async
-          id="gtag-init"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
-          dangerouslySetInnerHTML={{
-            __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-Q4ZX3XX7TL, {
-          page_path: window.location.pathname,
-        });
-      `,
-          }}
-        />
 
         <Meta />
         <Links />
