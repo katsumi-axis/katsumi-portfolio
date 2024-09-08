@@ -5,11 +5,11 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  base: "/katsumi-portfolio/",
+  base: "/",
   plugins: [
     remix({
       ssr: false,
-      basename: "/katsumi-portfolio/",
+      basename: "/",
       buildEnd(args) {
         if (!args.viteConfig.isProduction) return;
 
