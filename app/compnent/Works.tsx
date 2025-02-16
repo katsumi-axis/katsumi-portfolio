@@ -7,7 +7,6 @@ function Works() {
           <li>OneNova</li>
           <li>TouchSpot</li>
           <li>MICOLY</li>
-          <li>BasicIncome</li>
           <li>Gupero</li>
         </ul>
       </div>

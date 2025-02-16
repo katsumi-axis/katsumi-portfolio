@@ -3,6 +3,7 @@ import Awards from "~/compnent/Awards";
 import Contact from "~/compnent/Contact";
 import Menu from "~/compnent/Menu";
 import Profile from "~/compnent/Profile";
+import Skills from "~/compnent/Skills";
 import Works from "~/compnent/Works";
 
 export const meta: MetaFunction = () => {
@@ -25,6 +26,7 @@ export default function Index() {
         <Profile />
         <Awards />
         <Works />
+        <Skills />
         <Contact />
       </div>
     </>
