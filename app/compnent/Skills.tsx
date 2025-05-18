@@ -10,6 +10,14 @@ function Awards() {
           </ul>
         </div>
       </div>
+
+      <div className="w-full md:w-1/3 pr-0 md:pr-4 mx-auto">
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=katsumi-axis&layout=compact"
+          alt="Top Languages"
+          className="w-full h-auto p-4"
+        />
+      </div>
     </div>
   );
 }
