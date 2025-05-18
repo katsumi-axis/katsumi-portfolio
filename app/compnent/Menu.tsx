@@ -6,8 +6,8 @@ function Menu() {
           <a href="#Profile" className="text-white pr-4">
             Profile
           </a>
-          <a href="#Works" className="text-white pr-4">
-            Works
+          <a href="#Company" className="text-white pr-4">
+            Compny
           </a>
           <a href="#Awards" className="text-white pr-4">
             Awards
