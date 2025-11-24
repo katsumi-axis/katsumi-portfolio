@@ -13,7 +13,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <script
           async
           id="gtag-init"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: Google Analytics script requires dangerouslySetInnerHTML
           dangerouslySetInnerHTML={{
             __html: `
         window.dataLayer = window.dataLayer || [];
