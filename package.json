@@ -11,7 +11,8 @@
     "format": "biome format --write .",
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "deploy": "pnpm run build && wrangler pages deploy"
   },
   "dependencies": {
     "@fontsource-variable/noto-sans-jp": "^5.2.9",
@@ -36,7 +37,8 @@
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3",
     "vite": "^7.2.4",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "wrangler": "^4.50.0"
   },
   "engines": {
     "node": ">=20.0.0"

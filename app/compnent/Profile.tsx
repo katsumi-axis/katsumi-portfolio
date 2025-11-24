@@ -1,4 +1,4 @@
-import me from "../assets/me.jpg"
+import me from "../assets/me.png"
 
 function Profile() {
   return (
