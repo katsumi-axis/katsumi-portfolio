@@ -1,40 +1,60 @@
-# Welcome to Remix!
+# Katsumi Portfolio
 
-- 📖 [Remix docs](https://remix.run/docs)
+This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages.
 
-## Development
+## Tech Stack
 
-Run the dev server:
+- **Framework**: [Remix](https://remix.run/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Styled Components](https://styled-components.com/)
+- **Linting & Formatting**: [Biome](https://biomejs.dev/)
+- **Deployment**: [Cloudflare Pages](https://pages.cloudflare.com/)
 
-```shellscript
-npm run dev
-```
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (>=20.0.0)
+- [pnpm](https://pnpm.io/) (Recommended package manager)
+
+## Getting Started
+
+1.  Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    cd katsumi-portfolio
+    ```
+
+2.  Install dependencies:
+
+    ```bash
+    pnpm install
+    ```
+
+3.  Start the development server:
+
+    ```bash
+    pnpm dev
+    ```
+
+## Scripts
+
+- `pnpm dev`: Starts the development server.
+- `pnpm build`: Builds the app for production.
+- `pnpm start`: Runs the built app in production mode locally.
+- `pnpm lint`: Checks for linting errors using Biome.
+- `pnpm lint:fix`: Fixes linting errors using Biome.
+- `pnpm format`: Formats code using Biome.
+- `pnpm typecheck`: Runs TypeScript type checking.
+- `pnpm deploy`: Builds and deploys the app to Cloudflare Pages.
 
 ## Deployment
 
-First, build your app for production:
+This project is configured to deploy to Cloudflare Pages.
 
-```sh
-npm run build
+To deploy manually:
+
+```bash
+pnpm deploy
 ```
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Ensure you have `wrangler` installed and authenticated if deploying from your local machine.
