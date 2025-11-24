@@ -1,17 +1,17 @@
-import type { MetaFunction } from "@remix-run/node";
-import Awards from "~/compnent/Awards";
-import Contact from "~/compnent/Contact";
-import Menu from "~/compnent/Menu";
-import Profile from "~/compnent/Profile";
-import Skills from "~/compnent/Skills";
-import Works from "~/compnent/Works";
+import type { MetaFunction } from "@remix-run/node"
+import Awards from "~/compnent/Awards"
+import Contact from "~/compnent/Contact"
+import Menu from "~/compnent/Menu"
+import Profile from "~/compnent/Profile"
+import Skills from "~/compnent/Skills"
+import Works from "~/compnent/Works"
 
 export const meta: MetaFunction = () => {
   return [
     { title: "Furuta Katsumi | Portfolio" },
     { name: "description", content: "古田克海のポートフォリオサイト。" },
-  ];
-};
+  ]
+}
 
 export default function Index() {
   return (
@@ -30,5 +30,5 @@ export default function Index() {
         <Contact />
       </div>
     </>
-  );
+  )
 }

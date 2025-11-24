@@ -18,7 +18,7 @@ function Menu() {
         </nav>
       </div>
     </div>
-  );
+  )
 }
 
-export default Menu;
+export default Menu

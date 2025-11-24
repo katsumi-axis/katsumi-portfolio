@@ -5,10 +5,7 @@ function Contact() {
 
       <div className="flex flex-col-reverse md:flex-row">
         <div className="w-full md:w-1/3 pr-0 md:pr-4 mx-auto">
-          <a
-            href="mailto:withcomputer@gmail.com"
-            className="text-blue-600 hover:text-blue-800"
-          >
+          <a href="mailto:withcomputer@gmail.com" className="text-blue-600 hover:text-blue-800">
             withcomputer@gmail.com
           </a>
           <br />
@@ -21,7 +18,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

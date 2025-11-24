@@ -19,7 +19,7 @@ function Awards() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Awards;
+export default Awards

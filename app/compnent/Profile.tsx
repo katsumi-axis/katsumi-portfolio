@@ -1,15 +1,11 @@
-import me from "../assets/me.jpg";
+import me from "../assets/me.jpg"
 
 function Profile() {
   return (
     <div id="Profile" className="conatiner">
       <div className="m-4">
         <div className="w-full text-center">
-          <img
-            src={me}
-            alt="Furuta Katsumi"
-            className="w-32 h-32 mx-auto rounded-full m-8"
-          />
+          <img src={me} alt="Furuta Katsumi" className="w-32 h-32 mx-auto rounded-full m-8" />
           <h2 className="text-2xl font-bold mb-4">Profile</h2>
         </div>
 
@@ -42,7 +38,7 @@ function Profile() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Profile;
+export default Profile

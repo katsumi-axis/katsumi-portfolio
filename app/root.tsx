@@ -1,12 +1,6 @@
-import "@fontsource-variable/noto-sans-jp";
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
-import "./tailwind.css";
+import "@fontsource-variable/noto-sans-jp"
+import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react"
+import "./tailwind.css"
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,10 +9,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script
-          async
-          src={"https://www.googletagmanager.com/gtag/js?id=G-Q4ZX3XX7TL"}
-        />
+        <script async src={"https://www.googletagmanager.com/gtag/js?id=G-Q4ZX3XX7TL"} />
         <script
           async
           id="gtag-init"
@@ -43,9 +34,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
     </html>
-  );
+  )
 }
 
 export default function App() {
-  return <Outlet />;
+  return <Outlet />
 }

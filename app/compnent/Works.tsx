@@ -11,7 +11,7 @@ function Works() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
 
-export default Works;
+export default Works
