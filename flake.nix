@@ -30,6 +30,7 @@
         {
           default = pkgs.mkShell {
             packages = [
+              pkgs.biome
               pkgs.nodejs_20
               pkgs.pnpm_10
               pkgs.git
@@ -42,6 +43,7 @@
 
               echo "Node $(node --version)"
               echo "pnpm $(pnpm --version)"
+              echo "Biome $(biome --version)"
             '';
           };
         }

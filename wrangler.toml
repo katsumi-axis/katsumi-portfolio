@@ -1,3 +1,6 @@
 name = "katsumi-portfolio"
-pages_build_output_dir = "build/client"
-compatibility_date = "2025-01-15"
+compatibility_date = "2026-04-26"
+
+[assets]
+directory = "build/client"
+not_found_handling = "single-page-application"

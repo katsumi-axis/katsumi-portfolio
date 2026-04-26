@@ -1,6 +1,6 @@
 # Katsumi Portfolio
 
-This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages.
+This is the portfolio website for Katsumi, built with Remix and Cloudflare Workers.
 
 ## Tech Stack
 
@@ -8,7 +8,7 @@ This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Styled Components](https://styled-components.com/)
 - **Linting & Formatting**: [Biome](https://biomejs.dev/)
-- **Deployment**: [Cloudflare Pages](https://pages.cloudflare.com/)
+- **Deployment**: [Cloudflare Workers](https://developers.cloudflare.com/workers/)
 
 ## Prerequisites
 
@@ -52,11 +52,11 @@ This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages
 - `pnpm lint:fix`: Fixes linting errors using Biome.
 - `pnpm format`: Formats code using Biome.
 - `pnpm typecheck`: Runs TypeScript type checking.
-- `pnpm deploy`: Builds and deploys the app to Cloudflare Pages.
+- `pnpm deploy`: Builds and deploys the app to Cloudflare Workers.
 
 ## Deployment
 
-This project is configured to deploy to Cloudflare Pages.
+This project is configured to deploy to Cloudflare Workers Static Assets.
 
 To deploy manually:
 

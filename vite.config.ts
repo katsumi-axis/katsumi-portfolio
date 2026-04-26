@@ -1,5 +1,3 @@
-import { copyFileSync } from "node:fs"
-import { join } from "node:path"
 import { vitePlugin as remix } from "@remix-run/dev"
 import { defineConfig } from "vite"
 import tsconfigPaths from "vite-tsconfig-paths"
@@ -16,14 +14,6 @@ export default defineConfig({
         v3_throwAbortReason: true,
         v3_singleFetch: true,
         v3_lazyRouteDiscovery: true,
-      },
-      buildEnd(args) {
-        if (!args.viteConfig.isProduction) return
-
-        // For SPA routing on Cloudflare Pages, we create a 404.html
-        // and _redirects file to handle client-side routing
-        const buildPath = args.viteConfig.build.outDir
-        copyFileSync(join(buildPath, "index.html"), join(buildPath, "404.html"))
       },
     }),
     tsconfigPaths(),
