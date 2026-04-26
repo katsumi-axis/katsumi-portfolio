@@ -14,6 +14,7 @@ This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages
 
 - [Node.js](https://nodejs.org/) (>=20.0.0)
 - [pnpm](https://pnpm.io/) (Recommended package manager)
+- Optional: [Nix](https://nixos.org/) for a pinned local development shell
 
 ## Getting Started
 
@@ -24,13 +25,19 @@ This is the portfolio website for Katsumi, built with Remix and Cloudflare Pages
     cd katsumi-portfolio
     ```
 
-2.  Install dependencies:
+2.  Enter the Nix development shell if you use Nix:
+
+    ```bash
+    nix develop
+    ```
+
+3.  Install dependencies:
 
     ```bash
     pnpm install
     ```
 
-3.  Start the development server:
+4.  Start the development server:
 
     ```bash
     pnpm dev
